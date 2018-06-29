@@ -11,8 +11,8 @@ $(function(){
 
     var imagePlace = 0;
 
-	var victorySound = new Audio ("assets/sounds/theme.mp3");
-	var lossSound = new Audio ("assets/sounds/imperial_march.wav");
+	var victorySound = new Audio ("../../sounds/theme.mp3");
+	var lossSound = new Audio ("../../sounds/imperial_march.wav");
 
 	$(".characterChoice").on("click", "div", function(){
 		heroHP = $(this).find(".HP").text();
