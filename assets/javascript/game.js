@@ -4,7 +4,7 @@ $(function(){
     var heroAttackPower = 0;
     var foeHP = 0;
     var foeAttackPower = 0;
-    var fightAudio = new Audio("/Users/bakil/Desktop/RPG/assets/sounds/lsabhit.WAV"); 
+    var fightAudio = new Audio("../../sounds/lsabhit.WAV"); 
 	var images = ['assets/images/back0.png',
 				'assets/images/hoth.png',
 				'assets/images/back.png',]
