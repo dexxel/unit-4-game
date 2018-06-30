@@ -4,14 +4,14 @@ $(function(){
     var heroAttackPower = 0;
     var foeHP = 0;
     var foeAttackPower = 0;
-    var fightAudio = new Audio ("../sounds/lsabhit.WAV"); 
+    var fightAudio = new Audio ("./../sounds/lsabhit.WAV"); 
 	var images = ['assets/images/back0.png',
 				'assets/images/hoth.png',
 				'assets/images/back.png',]
 
     var imagePlace = 0;
 
-	var victorySound = new Audio ("../sounds/theme.mp3");
+	var victorySound = new Audio ("./../sounds/theme.mp3");
 	var lossSound = new Audio ("../sounds/imperial_march.wav");
 
 	$(".characterChoice").on("click", "div", function(){
